@@ -38,5 +38,13 @@ Now realvnc is a bit hard if you use the free version, as you have to open a UI 
   `tar xvf VNC.tar.gz`
  
 - Now install the vnc-server from the directory (names may vary)
+
+- To login with realvnc account, you have to start up the x11 service:  
+  `systemctl start vncserver-x11-serviced.service`  
+  Right-click on the item and select 'Licensing' to login
   
+- automatically start the service after boot:  
+  `systemctl enable vncserver-x11-serviced.service`
+  
+
 

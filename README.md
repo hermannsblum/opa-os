@@ -33,11 +33,10 @@ For the telegram-plugin and chrome, you can add sources:
 
 Now realvnc is a bit hard if you use the free version, as you have to open a UI to login:
 
-- Download and unpack the latest archive on a 64-bit Debian-compatible system:
-
-    curl -L -o VNC.tar.gz https://www.realvnc.com/download/binary/latest/debian/64-bit/
-    tar xvf VNC.tar.gz
-  
+- Download and unpack the latest archive on a 64-bit Debian-compatible system:  
+  `curl -L -o VNC.tar.gz https://www.realvnc.com/download/binary/latest/debian/64-bit/`  
+  `tar xvf VNC.tar.gz`
+ 
 - Now install the vnc-server from the directory (names may vary)
   
 

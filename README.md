@@ -6,17 +6,17 @@ Lubuntu based os simplified for grandparents. Features:
 * VNC server
 * Direct chat with a support person
 
-# steps
-
-## Install lubuntu
-I used 16.04 LTS as stability is a primary concern.
-
 ## Software Decisions
 
 * Chrome as Browser as it is both simple and for unexperienced users probably the safest choice
 * Geary for email as it features a rather simple UI
 * realvnc as vnc server as it was the easiest option to deal with dynamic IPs, but any other combination of DynIP service and standard vnc server would probably also work
 * pidgin is the chat client I use for the support chat, there should be a plugin for any IM service you like, I use it with telegram
+
+# steps
+
+## Install lubuntu
+I used 16.04 LTS as stability is a primary concern.
 
 ## Software Installation
 Some stuff you can install from standard repos:

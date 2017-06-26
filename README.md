@@ -21,7 +21,7 @@ I used 16.04 LTS as stability is a primary concern.
 ## Software Installation
 Some stuff you can install from standard repos:
 
-    sudo apt-get install geary pidgin
+    sudo apt-get install geary pidgin libpurple-bin
   
 For the telegram-plugin and chrome, you can add sources:
 

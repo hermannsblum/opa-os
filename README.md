@@ -21,7 +21,7 @@ I used 16.04 LTS as stability is a primary concern.
 ## Software Installation
 Some stuff you can install from standard repos:
 
-    sudo apt-get geary, pidgin
+    sudo apt-get install geary pidgin
   
 For the telegram-plugin and chrome, you can add sources:
 
@@ -29,7 +29,7 @@ For the telegram-plugin and chrome, you can add sources:
     wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
     sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
     sudo apt-get update
-    sudo apt-get install telegram-purple, google-chrome-stable
+    sudo apt-get install telegram-purple google-chrome-stable
 
 Now realvnc is a bit hard if you use the free version, as you have to open a UI to login:
 

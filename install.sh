@@ -7,4 +7,11 @@ sudo apt-get install telegram-purple google-chrome-stable
 (pidgin &)
 echo "please add a telegram account and enter the name of the account to be contacted for support:"
 read supportperson
-sudo echo "#! /bin/bash \n pidgin & sleep 1 & wmctrl -c "Buddy List" & purple-remote "telegram:goim?screenname=$supportperson" > /usr/local/bin/supportchat.sh
+# write script to open chat with support person
+sudo cat >/usr/local/bin/supportchat.sh <<EOL
+#! /bin/bash
+pidgin & 
+sleep 1 & 
+wmctrl -c "Buddy List" 
+purple-remote "telegram:goim?screenname=$supportperson"
+EOL
